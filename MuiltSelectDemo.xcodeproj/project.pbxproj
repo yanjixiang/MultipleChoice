@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C970909B2BDE2D9D0076AB02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C970909A2BDE2D9D0076AB02 /* AppDelegate.m */; };
+		C97090A12BDE2D9D0076AB02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97090A02BDE2D9D0076AB02 /* ViewController.m */; };
+		C97090A42BDE2D9D0076AB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97090A22BDE2D9D0076AB02 /* Main.storyboard */; };
+		C97090A62BDE2D9E0076AB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97090A52BDE2D9E0076AB02 /* Assets.xcassets */; };
+		C97090A92BDE2D9E0076AB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97090A72BDE2D9E0076AB02 /* LaunchScreen.storyboard */; };
+		C97090AC2BDE2D9E0076AB02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C97090AB2BDE2D9E0076AB02 /* main.m */; };
+		C97090B62BDE312E0076AB02 /* MembeComeoItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C97090B42BDE312E0076AB02 /* MembeComeoItemCell.m */; };
+		C97090B72BDE312E0076AB02 /* MemberCenterComeoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C97090B52BDE312E0076AB02 /* MemberCenterComeoCell.m */; };
+		C97090BC2BDE38F80076AB02 /* MemberCenterMiddleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C97090BA2BDE38F80076AB02 /* MemberCenterMiddleModel.m */; };
+		C97090BF2BDE391C0076AB02 /* MemberCenterMiddleMaxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C97090BE2BDE391C0076AB02 /* MemberCenterMiddleMaxModel.m */; };
+		C97090C22BDE39960076AB02 /* UIColor+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = C97090C02BDE39950076AB02 /* UIColor+Extention.m */; };
+		D4DDA4396E713DC7615DA2B1 /* libPods-MuiltSelectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5612196936C312969A591D9 /* libPods-MuiltSelectDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02144289E14BA405EDB4A1C7 /* Pods-MuiltSelectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuiltSelectDemo.debug.xcconfig"; path = "Target Support Files/Pods-MuiltSelectDemo/Pods-MuiltSelectDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		470EBE6917457D16750005AB /* Pods-MuiltSelectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuiltSelectDemo.release.xcconfig"; path = "Target Support Files/Pods-MuiltSelectDemo/Pods-MuiltSelectDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C97090962BDE2D9D0076AB02 /* MuiltSelectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuiltSelectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97090992BDE2D9D0076AB02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C970909A2BDE2D9D0076AB02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C970909F2BDE2D9D0076AB02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C97090A02BDE2D9D0076AB02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C97090A32BDE2D9D0076AB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C97090A52BDE2D9E0076AB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C97090A82BDE2D9E0076AB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C97090AA2BDE2D9E0076AB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97090AB2BDE2D9E0076AB02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C97090B22BDE312E0076AB02 /* MembeComeoItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembeComeoItemCell.h; sourceTree = "<group>"; };
+		C97090B32BDE312E0076AB02 /* MemberCenterComeoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberCenterComeoCell.h; sourceTree = "<group>"; };
+		C97090B42BDE312E0076AB02 /* MembeComeoItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembeComeoItemCell.m; sourceTree = "<group>"; };
+		C97090B52BDE312E0076AB02 /* MemberCenterComeoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberCenterComeoCell.m; sourceTree = "<group>"; };
+		C97090B82BDE35AD0076AB02 /* MacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
+		C97090B92BDE36030076AB02 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C97090BA2BDE38F80076AB02 /* MemberCenterMiddleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberCenterMiddleModel.m; sourceTree = "<group>"; };
+		C97090BB2BDE38F80076AB02 /* MemberCenterMiddleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberCenterMiddleModel.h; sourceTree = "<group>"; };
+		C97090BD2BDE391C0076AB02 /* MemberCenterMiddleMaxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberCenterMiddleMaxModel.h; sourceTree = "<group>"; };
+		C97090BE2BDE391C0076AB02 /* MemberCenterMiddleMaxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberCenterMiddleMaxModel.m; sourceTree = "<group>"; };
+		C97090C02BDE39950076AB02 /* UIColor+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extention.m"; sourceTree = "<group>"; };
+		C97090C12BDE39950076AB02 /* UIColor+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extention.h"; sourceTree = "<group>"; };
+		F5612196936C312969A591D9 /* libPods-MuiltSelectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MuiltSelectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97090932BDE2D9D0076AB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DDA4396E713DC7615DA2B1 /* libPods-MuiltSelectDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B016171432D355E090F2B0EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02144289E14BA405EDB4A1C7 /* Pods-MuiltSelectDemo.debug.xcconfig */,
+				470EBE6917457D16750005AB /* Pods-MuiltSelectDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C970908D2BDE2D9D0076AB02 = {
+			isa = PBXGroup;
+			children = (
+				C97090982BDE2D9D0076AB02 /* MuiltSelectDemo */,
+				C97090972BDE2D9D0076AB02 /* Products */,
+				B016171432D355E090F2B0EB /* Pods */,
+				F8E362A1F3BB4B33544F94DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C97090972BDE2D9D0076AB02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97090962BDE2D9D0076AB02 /* MuiltSelectDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C97090982BDE2D9D0076AB02 /* MuiltSelectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C97090C32BDE3FCA0076AB02 /* CustomView */,
+				C97090B92BDE36030076AB02 /* PrefixHeader.pch */,
+				C97090B82BDE35AD0076AB02 /* MacroHeader.h */,
+				C97090992BDE2D9D0076AB02 /* AppDelegate.h */,
+				C970909A2BDE2D9D0076AB02 /* AppDelegate.m */,
+				C970909F2BDE2D9D0076AB02 /* ViewController.h */,
+				C97090A02BDE2D9D0076AB02 /* ViewController.m */,
+				C97090A22BDE2D9D0076AB02 /* Main.storyboard */,
+				C97090A52BDE2D9E0076AB02 /* Assets.xcassets */,
+				C97090A72BDE2D9E0076AB02 /* LaunchScreen.storyboard */,
+				C97090AA2BDE2D9E0076AB02 /* Info.plist */,
+				C97090AB2BDE2D9E0076AB02 /* main.m */,
+			);
+			path = MuiltSelectDemo;
+			sourceTree = "<group>";
+		};
+		C97090C32BDE3FCA0076AB02 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C97090B22BDE312E0076AB02 /* MembeComeoItemCell.h */,
+				C97090B42BDE312E0076AB02 /* MembeComeoItemCell.m */,
+				C97090B32BDE312E0076AB02 /* MemberCenterComeoCell.h */,
+				C97090B52BDE312E0076AB02 /* MemberCenterComeoCell.m */,
+				C97090BB2BDE38F80076AB02 /* MemberCenterMiddleModel.h */,
+				C97090BA2BDE38F80076AB02 /* MemberCenterMiddleModel.m */,
+				C97090BD2BDE391C0076AB02 /* MemberCenterMiddleMaxModel.h */,
+				C97090BE2BDE391C0076AB02 /* MemberCenterMiddleMaxModel.m */,
+				C97090C12BDE39950076AB02 /* UIColor+Extention.h */,
+				C97090C02BDE39950076AB02 /* UIColor+Extention.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		F8E362A1F3BB4B33544F94DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5612196936C312969A591D9 /* libPods-MuiltSelectDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C97090952BDE2D9D0076AB02 /* MuiltSelectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97090AF2BDE2D9E0076AB02 /* Build configuration list for PBXNativeTarget "MuiltSelectDemo" */;
+			buildPhases = (
+				813767EA2D92F413C2F97DC1 /* [CP] Check Pods Manifest.lock */,
+				C97090922BDE2D9D0076AB02 /* Sources */,
+				C97090932BDE2D9D0076AB02 /* Frameworks */,
+				C97090942BDE2D9D0076AB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuiltSelectDemo;
+			productName = MuiltSelectDemo;
+			productReference = C97090962BDE2D9D0076AB02 /* MuiltSelectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C970908E2BDE2D9D0076AB02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C97090952BDE2D9D0076AB02 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C97090912BDE2D9D0076AB02 /* Build configuration list for PBXProject "MuiltSelectDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C970908D2BDE2D9D0076AB02;
+			productRefGroup = C97090972BDE2D9D0076AB02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97090952BDE2D9D0076AB02 /* MuiltSelectDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C97090942BDE2D9D0076AB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97090A92BDE2D9E0076AB02 /* LaunchScreen.storyboard in Resources */,
+				C97090A62BDE2D9E0076AB02 /* Assets.xcassets in Resources */,
+				C97090A42BDE2D9D0076AB02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		813767EA2D92F413C2F97DC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuiltSelectDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97090922BDE2D9D0076AB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97090BC2BDE38F80076AB02 /* MemberCenterMiddleModel.m in Sources */,
+				C97090C22BDE39960076AB02 /* UIColor+Extention.m in Sources */,
+				C97090A12BDE2D9D0076AB02 /* ViewController.m in Sources */,
+				C970909B2BDE2D9D0076AB02 /* AppDelegate.m in Sources */,
+				C97090AC2BDE2D9E0076AB02 /* main.m in Sources */,
+				C97090B62BDE312E0076AB02 /* MembeComeoItemCell.m in Sources */,
+				C97090B72BDE312E0076AB02 /* MemberCenterComeoCell.m in Sources */,
+				C97090BF2BDE391C0076AB02 /* MemberCenterMiddleMaxModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C97090A22BDE2D9D0076AB02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97090A32BDE2D9D0076AB02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C97090A72BDE2D9E0076AB02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97090A82BDE2D9E0076AB02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C97090AD2BDE2D9E0076AB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C97090AE2BDE2D9E0076AB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C97090B02BDE2D9E0076AB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02144289E14BA405EDB4A1C7 /* Pods-MuiltSelectDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = /Users/yanjixiang/Desktop/MuiltSelectDemo/MuiltSelectDemo/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuiltSelectDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YJX.MuiltSelectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C97090B12BDE2D9E0076AB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470EBE6917457D16750005AB /* Pods-MuiltSelectDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = /Users/yanjixiang/Desktop/MuiltSelectDemo/MuiltSelectDemo/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuiltSelectDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YJX.MuiltSelectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C97090912BDE2D9D0076AB02 /* Build configuration list for PBXProject "MuiltSelectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97090AD2BDE2D9E0076AB02 /* Debug */,
+				C97090AE2BDE2D9E0076AB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97090AF2BDE2D9E0076AB02 /* Build configuration list for PBXNativeTarget "MuiltSelectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97090B02BDE2D9E0076AB02 /* Debug */,
+				C97090B12BDE2D9E0076AB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C970908E2BDE2D9D0076AB02 /* Project object */;
+}
